@@ -56,8 +56,8 @@ print("Допустимое снятие:", test_withdraw_valid())
 print("Снятие больше баланса:", test_withdraw_more_than_balance())
 print("Нулевое снятие:", test_withdraw_negative_zero())
 print("Корректный перевод:", test_transfer_valid())
-print("Перевод не проходит нехватке средств:", test_transfer_fails_when_insufficient_funds())
-print("Перевод не проходит отрицательной сумма:", test_transfer_fails_with_negative_amount()," Error!")
+print("Перевод не проходит нехваткa средств:", test_transfer_fails_when_insufficient_funds())
+print("Перевод не проходит отрицательнaя сумма:", test_transfer_fails_with_negative_amount()," Error!")
 
 
 
